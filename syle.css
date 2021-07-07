@@ -6,26 +6,45 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-header {
+header,
+footer {
   color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%; /* so it doesnt overflow*/
 
   padding: 30px 10%;
 }
 header h1 {
   font-size: 150%;
-  padding-right: 200px;
 }
 header h1::before {
   padding-right: 5px;
-  display: inline-block;
+  /*display: inline-block; useless*/
   font-style: normal;
   font-family: "Font Awesome 5 Free";
   font-weight: 400; /* 900 soild 400 line one*/
   content: "\f07c";
   color: rgb(112, 44, 238);
+}
+
+.email {
+  color: rgb(112, 44, 238);
+}
+
+.github a,
+.email a {
+  text-decoration: none;
+  font-size: 150%;
+}
+.email i,
+.github i {
+  height: 30px;
+}
+.email i {
+  position: relative;
+  left: -9px;
 }
 
 nav ul {
@@ -45,10 +64,11 @@ nav a {
   font-weight: 400;
   font-size: 150%;
 }
+
 .hero {
   background-image: url("./pics/pexels-anni-roenkae-4175070.jpg");
   height: 600px;
-  width: 100%;
+  width: 100vw;
   margin-bottom: 25px;
   background-size: cover;
   background-position: center;
@@ -75,30 +95,71 @@ nav a {
 
   padding: 20px;
 }
-/*.sections {
-  display: flex;
-  width: 100%;
-  margin: 10px;
-  
-  
-}
-.about-me {
-}
 .about-me h2 {
-  font-size: 200%;
-  padding: 10px;
-  margin: 10px;
+  font-size: 150%;
+  text-align: center;
+}
+
+.about-me p {
+  text-align: center;
+  padding: 20px;
+  font-size: 120%;
 }
 .work {
+  background-color: rgb(112, 44, 238);
+}
+.work figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work h2 {
+  font-size: 150%;
+  text-align: center;
+}
+.work img {
+  /*size of imgs*/
+  width: 300px;
+  height: 250px;
+}
+.work a {
+  /* for the links bottom of img placholders*/
+  display: flex;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 90%;
+  align-items: center;
+  flex-direction: column;
+}
+.contact h2 {
+  font-size: 150%;
+  text-align: center;
+}
+.contact p {
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+.contact li {
+  text-align: center;
 }
 .contact {
+  padding-bottom: 20px;
 }
-*/
+footer {
+  display: flex;
+  background-color: rgb(169, 107, 226);
+  text-align: center;
+  width: 100vw;
+}
 
 @media screen and (max-width: 869px) {
   .hero {
     height: 300px;
-    width: 100%;
+    width: 100vw;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
@@ -128,19 +189,21 @@ nav a {
 }
 @media screen and (max-width: 490px) {
   header {
-    padding-top: 10px;
+    flex-direction: column;
+    margin-top: 32px;
   }
   nav ul {
-    height: 230px;
+    height: max-content; /* grow if put more elements*/
     flex-direction: column;
     text-align: center;
+    margin-top: 32px;
   }
   header h1 {
     padding-right: 0;
   }
   .hero {
     height: 300px;
-    width: 100%;
+    width: 100vw;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
@@ -149,7 +212,7 @@ nav a {
   .hero h1 {
     display: flex;
     justify-content: flex-start;
-    padding-left: 20px;
+    padding-left: 50px;
 
     position: relative;
     right: 10px;
@@ -162,9 +225,12 @@ nav a {
     display: flex;
     justify-content: flex-end;
     position: relative;
-    left: -10px;
+    left: -20px;
     top: 10px;
 
     height: 30%;
+  }
+  footer {
+    font-size: 15px;
   }
 }
