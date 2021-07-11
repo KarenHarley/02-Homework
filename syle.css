@@ -1,3 +1,5 @@
+/* need to create README file and :root for colors*/
+
 html {
   width: 100vw;
 }
@@ -43,6 +45,7 @@ header h1::before {
 .email a {
   text-decoration: none;
   font-size: 150%;
+  color: rgb(112, 44, 238);
 }
 .email i,
 .github i {
@@ -162,9 +165,12 @@ nav a {
 }
 footer {
   display: flex;
-  background-color: rgb(169, 107, 226);
+  background-color: rgb(190, 125, 250);
   text-align: center;
   width: 100vw;
+}
+footer h3 {
+  font-size: 110%;
 }
 
 @media screen and (max-width: 869px) {
@@ -249,6 +255,9 @@ footer {
   footer {
     font-size: 15px;
   }
+  footer h3 {
+    font-size: 100%;
+  }
 
   .work img {
     /*size of imgs*/
@@ -260,17 +269,3 @@ footer {
     font-size: 150%;
   }
 }
-
-/*
-.work a {
-  for the links bottom of img placholders
-  display: flex;
-  padding: 5px;
-  text-decoration: none;
-  color: black;
-  font-weight: 400;
-  font-size: 90%;
-  align-items: center;
-  flex-direction: column;
-}
-*/
