@@ -26,6 +26,11 @@ This is Karen Villagomez's website portfolio. Where you can find:
 
 ---
 
+# Technologies used
+
+2. CSS
+3. HTML
+
 #### Links:
 
 # Github:
@@ -33,3 +38,7 @@ https://github.com/KarenHarley/02-Homework
 
 # Site:
 https://karenharley.github.io/Portfoilo/
+
+## Contact Info 
+
+karen.pretzel.365@gmail.com
