@@ -28,8 +28,8 @@ This is Karen Villagomez's website portfolio. Where you can find:
 
 #### Links:
 
-#Github:
+# Github:
 https://github.com/KarenHarley/02-Homework
 
-#Site:
+# Site:
 https://karenharley.github.io/Portfoilo/
