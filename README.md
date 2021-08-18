@@ -41,4 +41,4 @@ https://karenharley.github.io/Portfoilo/
 
 ## Contact Info 
 
-karen.pretzel.365@gmail.com
+KarenHarley88@gmail.com
