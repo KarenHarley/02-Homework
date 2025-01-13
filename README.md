@@ -37,10 +37,10 @@ This is Karen Villagomez's website portfolio. Where you can find:
 #### Links:
 
 # Github:
-https://github.com/KarenHarley/02-Homework
+`https://github.com/KarenHarley/02-Homework`
 
 # Site:
-https://karenharley.github.io/Portfoilo/
+`https://karenharley.github.io/Portfoilo/`
 
 ## Contact Info 
 
