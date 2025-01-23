@@ -3,6 +3,10 @@
 
 ## Portfolio
 
+## Table of Contents:
+
+- [Pictures](#picture-of-website)
+
 This is Karen Villagomez's website portfolio. Where you can find:
 
 - An About-Me section.
