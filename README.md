@@ -6,6 +6,7 @@
 ## Table of Contents:
 
 - [Pictures](#picture-of-website)
+- [Website Link](#links)
 
 This is Karen Villagomez's website portfolio. Where you can find:
 
