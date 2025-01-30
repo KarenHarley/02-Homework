@@ -9,7 +9,7 @@ This is Karen Villagomez's website portfolio. Where you can find:
 
 - [Pictures](#picture-of-website)
 - [Website Link](#links)
-- [Technologies used](#technologies-used)
+- [Technologies](#technologies-used)
 
 
 - An About-Me section.
