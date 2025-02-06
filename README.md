@@ -1,11 +1,11 @@
 
 [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
 
-## Portfolio
+### Portfolio
 
 This is Karen Villagomez's website portfolio. Where you can find:
 
-## Table of Contents:
+### Table of Contents:
 
 - [Pictures](#picture-of-website)
 - [Website Link](#links)
@@ -31,18 +31,18 @@ This is Karen Villagomez's website portfolio. Where you can find:
 
 ---
 
-## Picture of website
+### Picture of website
 
 ![The navigation links are aligned to the right, and the slideshow buttons are center aligned.](pics/fullpage.png)
 
 ---
 
-# Technologies
+### Technologies
 
 2. CSS
 3. HTML
 
-#### Links:
+### Links:
 
 # Github:
 `https://github.com/KarenHarley/02-Homework`
@@ -50,6 +50,6 @@ This is Karen Villagomez's website portfolio. Where you can find:
 # Site:
 `https://karenharley.github.io/Portfoilo/`
 
-## Contact Info 
+### Contact Info 
 
 KarenHarley88@gmail.com
