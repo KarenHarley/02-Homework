@@ -3,7 +3,7 @@
 
 ### Portfolio
 
-This is Karen Villagomez's website portfolio. Where you can find:
+This is Karen Villagomez's website portfolio.
 
 ### Table of Contents:
 
@@ -12,7 +12,7 @@ This is Karen Villagomez's website portfolio. Where you can find:
 - [Technologies](#technologies)
 - [Links](#links)
 
-
+### You can find:
 - An About-Me section.
 
 ![The navigation links are aligned to the right, and the slideshow buttons are center aligned.](pics/aboutme.png)
