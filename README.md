@@ -11,6 +11,7 @@ This is Karen Villagomez's website portfolio.
 - [Website Link](#links)
 - [Technologies](#technologies)
 - [Links](#links)
+- [Contact](#Contact-info)
 
 ### You can find:
 - An About-Me section.
